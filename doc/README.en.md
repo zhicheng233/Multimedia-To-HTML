@@ -1,19 +1,22 @@
-Converting multimedia files into Html files for some special needs
+# Multimedia-To-HMTL
+*[English](doc/README.en.md) 
 
-## Why did you write this?
+Convert multimedia files to Html files for some special needs
+
+## Why write this
 
 Someone in the class wanted to use a tablet to look at pictures, and the control of the stupid tablet at school could only open txt and html files via a USB stick, so I researched and came up with this project
 
-## Tutorial
-1. Put the images to be converted into a folder and make sure the names are in line with the specifications
-2. Open the program and select the conversion mode
-3. Enter the path
-4. Wait for the conversion to complete
+## Tutorial on how to use it
+* Put the images you want to convert into a folder and make sure the names match the specification
+* Open the program and select the conversion mode
+* Enter the path
+* Wait for the conversion to complete
 
 ## Caution (must read)
-* This project is for learning and communication purposes only, it should not be used for profit or commercial purposes, and should not be distributed publicly.
+* This project is for learning and communication purposes only, it should not be used for profit or commercial purposes, and this project should not be distributed publicly.
 * The default export path is the running directory
-* Can't convert jpg and png at the same time, the default format is the one that takes up more of the conversion, please make sure the format is uniform before conversion (actually it can be done but too lazy to write it)
+* Can't convert jpg and png at the same time, the default format is the more popular format, please make sure the format is uniform before conversion (actually it is possible but too lazy to write)
 * Please use Python 3.10+ to run
 
 ## Download
@@ -23,8 +26,13 @@ Someone in the class wanted to use a tablet to look at pictures, and the control
 - 🌏 Localised language support
 - 📌 Images To HTML
 
+## TODO
+-📌 Images To HTML support for more formats ⏰
+-📌 Video To HTML⏰
+-📌 Music To HTML⏰ -📌 Music To HTML⏰
+-📌 Custom HTML styles supported⏰
 ## Tweets
-Android's file management is really silly, you can't access the content with the "file:///" protocol no matter how you write it
+Android's file management is really dumb, you can't access the content with the "file:///" protocol no matter how you write it
 
 ## Open source protocols
 ```text
