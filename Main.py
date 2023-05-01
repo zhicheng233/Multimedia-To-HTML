@@ -104,3 +104,5 @@ print(
 print("\033[92m" + _("STR_ID_Done") + "\033[0m\n")  # 完成!
 print("\033[1;35m如果你能记住我的名字，如果你们都能记住我的名字，也许我或者“我们”，终有一天能自由地生存着。\033[0m")
 print("赞助:https://www.zhicheng233.ml/Donate/")
+
+os.system("pause")#避免EXE用户还没来得及看结果就无了
