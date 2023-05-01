@@ -34,15 +34,16 @@
 - 📌 Images To HTML
 
 ## TODO
--📌 Images To HTML 支持更多的格式⏰
--📌 Video To HTML⏰
--📌 Music To HTML⏰
--📌 支持自定义HTML样式⏰
+- 📌 Images To HTML 支持更多的格式⏰
+- 📌 Video To HTML⏰
+- 📌 Music To HTML⏰
+- 📌 支持自定义HTML样式⏰
 ## 吐槽
 Android的文件管理是真的傻逼，用"file:///"协议怎么写都访问不了内容
 
 ## 番外
 圈内人士对该项目的评价
+
 <img src="doc/guatan.png"/>
 
 ## 开源协议
