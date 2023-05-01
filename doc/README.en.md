@@ -1,11 +1,17 @@
 # Multimedia-To-HMTL
-*[English](doc/README.en.md) 
+[! [Multimedia-To-HMTL](https://img.shields.io/github/v/release/zhicheng233/Multimedia-To-HMTL?color=ffaefe&label=Multimedia-To-HMTL) ](https://github.com/zhicheng233/Multimedia-To-HMTL/releases/latest)
+[! [GitHub license](https://img.shields.io/github/license/zhicheng233/Multimedia-To-HMTL)](https://github.com/zhicheng233/Multimedia-) To-HMTL/blob/main/LICENSE)
+[! [CodeFactor](https://www.codefactor.io/repository/github/zhicheng233/Multimedia-To-HMTL/badge)](https://www.codefactor.io/ repository/github/zhicheng233/Multimedia-To-HMTL)
+[! [GitHub stars](https://img.shields.io/github/stars/zhicheng233/Multimedia-To-HMTL)](https://github.com/zhicheng233/Multimedia-To- HMTL/stargazers)
+[! [GitHub forks](https://img.shields.io/github/forks/zhicheng233/Multimedia-To-HMTL)](https://github.com/zhicheng233/Multimedia-To- HMTL/network/members)
+[! [GitHub issues](https://img.shields.io/github/issues/zhicheng233/Multimedia-To-HMTL)](https://github.com/zhicheng233/Multimedia-To- HMTL/issues)
 
-Convert multimedia files to Html files for some special needs
+
+Converting multimedia files to Html files for some special needs
 
 ## Why write this
 
-Someone in the class wanted to use a tablet to look at pictures, and the control of the stupid tablet at school could only open txt and html files via a USB stick, so I researched and came up with this project
+Someone in the class wanted to use a tablet to look at pictures, and the controls on the stupid tablet at school could only open txt and html files via a USB stick, so I researched it and came up with this project
 
 ## Tutorial on how to use it
 * Put the images you want to convert into a folder and make sure the names match the specification
@@ -27,14 +33,15 @@ Someone in the class wanted to use a tablet to look at pictures, and the control
 - 📌 Images To HTML
 
 ## TODO
--📌 Images To HTML support for more formats ⏰
--📌 Video To HTML⏰
--📌 Music To HTML⏰ -📌 Music To HTML⏰
--📌 Custom HTML styles supported⏰
+- 📌 Images To HTML support for more formats ⏰
+- 📌 Video To HTML⏰
+- 📌 Music To HTML⏰ -📌 Music To HTML⏰
+- 📌 Custom HTML styles supported⏰
 ## Tweets
 Android's file management is really dumb, you can't access the content with the "file:///" protocol no matter how you write it
 
-## Open source protocols
+
+## Open source protocol
 ```text
                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
