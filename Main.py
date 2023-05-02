@@ -7,7 +7,7 @@ os.system('cls' if os.name == 'nt' else 'clear')  # 清空输出
 print(
     "███████╗██╗  ██╗██╗         ██████╗██╗  ██╗███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ \n╚══███╔╝██║  ██║██║        ██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝ ╚════██╗╚════██╗╚════██╗\n  ███╔╝ ███████║██║        ██║     ███████║█████╗  ██╔██╗ ██║██║  ███╗ █████╔╝ █████╔╝ █████╔╝\n ███╔╝  ██╔══██║██║        ██║     ██╔══██║██╔══╝  ██║╚██╗██║██║   ██║██╔═══╝  ╚═══██╗ ╚═══██╗\n███████╗██║  ██║██║███████╗╚██████╗██║  ██║███████╗██║ ╚████║╚██████╔╝███████╗██████╔╝██████╔╝\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝ ╚═════╝ \n")
 print(
-    "Multimedia To HMTL\n\033[1mVersion:\033[0m 1.0.0\n\033[1mGithub:https://www.github.com/Multimedia-To-HMTL\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
+    "Multimedia To HTML\n\033[1mVersion:\033[0m 1.0.1\n\033[1mGithub:https://www.github.com/zhicheng233/Multimedia-To-HTML\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
 
 
 def convert_images_to_base64(folder_path):
@@ -58,12 +58,12 @@ def convert_images_to_base64(folder_path):
             print(
                 "███████╗██╗  ██╗██╗         ██████╗██╗  ██╗███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ \n╚══███╔╝██║  ██║██║        ██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝ ╚════██╗╚════██╗╚════██╗\n  ███╔╝ ███████║██║        ██║     ███████║█████╗  ██╔██╗ ██║██║  ███╗ █████╔╝ █████╔╝ █████╔╝\n ███╔╝  ██╔══██║██║        ██║     ██╔══██║██╔══╝  ██║╚██╗██║██║   ██║██╔═══╝  ╚═══██╗ ╚═══██╗\n███████╗██║  ██║██║███████╗╚██████╗██║  ██║███████╗██║ ╚████║╚██████╔╝███████╗██████╔╝██████╔╝\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝ ╚═════╝ \n")
             print(
-                "Multimedia To HMTL\n\033[1mVersion:\033[0m 1.0.0\n\033[1mGithub:https://www.github.com/Multimedia-To-HMTL\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
+                "Multimedia To HTML\n\033[1mVersion:\033[0m 1.0.1\n\033[1mGithub:https://www.github.com/zhicheng233/Multimedia-To-HTML\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
             print("\033[1mPlease Wait...  ", "\033[1;92m" + str(pages), "\033[1;0m/", "\033[1;31m" + str(pagesTotal),
                 "\033[1;0m - ", str(pages / pagesTotal * 100) + "%")
 
     with open("output.html", "w", encoding="utf-8") as f:
-        f.write("<h1>技术支持&版权所有:志成zhi_cheng</h1>\n"+html_data+"<h1>Multimedia To HMTL</h1>\n<h1>Version: 1.0.0</h1>\n<h1>该程序为免费开源程序严禁任何形式倒卖  本程序遵循GPL ( GNU General Public License )开源许可协议</h1>\n<h1>Github开源仓库:https://www.github.com/Multimedia-To-HMTL</h1>\n<h1>访问 https://www.zhicheng233.ml 以获取更多内容</h1>\n<h1>捐赠吃口饭:https://www.zhicheng233.ml/Donate/</h1>\n<h1>如果你能记住我的名字，如果你们都能记住我的名字，也许我或者“我们”，终有一天能自由地生存着。</h1>\n")
+        f.write("<h1>技术支持&版权所有:志成zhi_cheng</h1>\n"+html_data+"<h1>Multimedia To HTML</h1>\n<h1>Version: 1.0.1</h1>\n<h1>该程序为免费开源程序严禁任何形式倒卖  本程序遵循GPL ( GNU General Public License )开源许可协议</h1>\n<h1>Github开源仓库:https://www.github.com/zhicheng233/Multimedia-To-HTML</h1>\n<h1>访问 https://www.zhicheng233.ml 以获取更多内容</h1>\n<h1>捐赠吃口饭:https://www.zhicheng233.ml/Donate/</h1>\n<h1>如果你能记住我的名字，如果你们都能记住我的名字，也许我或者“我们”，终有一天能自由地生存着。</h1>\n")
 
 
 langInput = int(
@@ -79,9 +79,9 @@ os.system('cls' if os.name == 'nt' else 'clear')  # 清空输出
 print(
     "███████╗██╗  ██╗██╗         ██████╗██╗  ██╗███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ \n╚══███╔╝██║  ██║██║        ██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝ ╚════██╗╚════██╗╚════██╗\n  ███╔╝ ███████║██║        ██║     ███████║█████╗  ██╔██╗ ██║██║  ███╗ █████╔╝ █████╔╝ █████╔╝\n ███╔╝  ██╔══██║██║        ██║     ██╔══██║██╔══╝  ██║╚██╗██║██║   ██║██╔═══╝  ╚═══██╗ ╚═══██╗\n███████╗██║  ██║██║███████╗╚██████╗██║  ██║███████╗██║ ╚████║╚██████╔╝███████╗██████╔╝██████╔╝\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝ ╚═════╝ \n")
 print(
-    "Multimedia To HMTL\n\033[1mVersion:\033[0m 1.0.0\n\033[1mGithub:https://www.github.com/Multimedia-To-HMTL\033["
+    "Multimedia To HTML\n\033[1mVersion:\033[0m 1.0.1\n\033[1mGithub:https://www.github.com/zhicheng233/Multimedia-To-HTML\033["
     "0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
-print(_("STR_ID_Welcome"))  # print("欢迎使用Multimedia To HMTL~")
+print(_("STR_ID_Welcome"))  # print("欢迎使用Multimedia To HTML~")
 print(_("STR_ID_WeiHu"))  # print("该项目由志成zhi_cheng维护")
 print("\033[31m" + _("STR_ID_JiaoCheng") + "\033[0m\n")  # print("\033[31m使用前请仔细查看教程\033[0m\n")
 print(_("STR_ID_ShuoMing"))  # print("该程序用于批量将多媒体文件如PNG转为Html以实现某些特殊需求")
@@ -99,7 +99,7 @@ os.system('cls' if os.name == 'nt' else 'clear')  # 清空输出
 print(
     "███████╗██╗  ██╗██╗         ██████╗██╗  ██╗███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ \n╚══███╔╝██║  ██║██║        ██╔════╝██║  ██║██╔════╝████╗  ██║██╔════╝ ╚════██╗╚════██╗╚════██╗\n  ███╔╝ ███████║██║        ██║     ███████║█████╗  ██╔██╗ ██║██║  ███╗ █████╔╝ █████╔╝ █████╔╝\n ███╔╝  ██╔══██║██║        ██║     ██╔══██║██╔══╝  ██║╚██╗██║██║   ██║██╔═══╝  ╚═══██╗ ╚═══██╗\n███████╗██║  ██║██║███████╗╚██████╗██║  ██║███████╗██║ ╚████║╚██████╔╝███████╗██████╔╝██████╔╝\n╚══════╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝ ╚═════╝ \n")
 print(
-    "Multimedia To HMTL\n\033[1mVersion:\033[0m 1.0.0\n\033[1mGithub:https://www.github.com/Multimedia-To-HMTL\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
+    "Multimedia To HTML\n\033[1mVersion:\033[0m 1.0.1\n\033[1mGithub:https://www.github.com/zhicheng233/Multimedia-To-HTML\033[0m\n\033[31mPlease visit https://www.zhicheng233.ml for more information\033[0m\n")
 
 print("\033[92m" + _("STR_ID_Done") + "\033[0m\n")  # 完成!
 print("\033[1;35m如果你能记住我的名字，如果你们都能记住我的名字，也许我或者“我们”，终有一天能自由地生存着。\033[0m")
