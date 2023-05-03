@@ -46,6 +46,10 @@ Android的文件管理是真的傻逼，用"file:///"协议怎么写都访问不
 
 <img src="doc/guatan.png"/>
 
+效果图
+
+<img src="doc/xiaoguo.jpg"/>
+
 ## 开源协议
 ```text
                    GNU GENERAL PUBLIC LICENSE
